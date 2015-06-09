@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <NumberPicker
+            android:id="@+id/pick_sets"
+            android:layout_width="96dp"
+            android:layout_height="192dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="x"
+            android:textSize="26sp"
+            />
+        <NumberPicker
+            android:id="@+id/pick_reps"
+            android:layout_width="96dp"
+            android:layout_height="192dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="48dp" />
+
+    <Button
+        android:id="@+id/submit_sets_reps_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit"
+        />
+
+</LinearLayout>

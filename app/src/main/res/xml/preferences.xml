@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="enable_keep_screen_on"
+        android:defaultValue="true"
+        android:title="@string/keep_screen_on_preference"/>
+
+    <CheckBoxPreference
+        android:key="enable_finish_sets_alert"
+        android:defaultValue="true"
+        android:title="@string/enable_finish_sets_alert_preference"/>
+
+
+    <PreferenceCategory
+        android:title="@string/alarm_preferences">
+        <CheckBoxPreference
+            android:key="enable_alarm_dismissal"
+            android:defaultValue="true"
+            android:title="@string/enable_alarm_dismissal_preference"/>
+        <CheckBoxPreference
+            android:key="enable_alarm_vibrate"
+            android:defaultValue="false"
+            android:title="@string/vibrate_preference"/>
+        <CheckBoxPreference
+            android:key="enable_alarm_sound"
+            android:defaultValue="false"
+            android:title="@string/sound_preference"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
